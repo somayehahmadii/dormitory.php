@@ -5,7 +5,7 @@
    
     $sid = $_SESSION["user_id"]; 
    
-    $sql = "SELECT reservations.reservation_id, reservations.room_id, reservations.start_date, 
+    $sql = "SELECT reservations.reservation_id, reservations.start_date, 
     reservations.start_end AS end_date, reservations.amount AS total_price, reservations.status
 FROM reservations 
 WHERE reservations.student_id = '$sid' AND reservations.status = 'active'";

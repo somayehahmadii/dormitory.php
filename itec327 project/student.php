@@ -37,7 +37,7 @@
             </a>
             <a class="item " href="">
             <i class="fa-solid fa-bolt"></i>
-              <span onclick="window.location.href='booking.php'; return false;">BOOKING</span>
+              <span onclick="window.location.href='booking-stu.php'; return false;">BOOKING</span>
             </a>
             <a class="item" href="">
             <i class="fa-solid fa-user"></i>
